@@ -1,11 +1,18 @@
 # Digital Café N°1 - Projet du groupe 3
-Digital Café n°1 du BootCamp Commun du programme Kapsiki
+Digital Café n°1 du BootCamp Commun du programme Kapsiki <br/>
 
-Junior Nitcheu: s'occupe du modèle
-		crée la classe CustomerModele (qui correspond à customer) /main/java
+Junior Nitcheu: s'occupe du modèle <br/>
+		crée la classe CustomerModele (qui correspond à customer) /main/java <br/>
 
 
-Manoel Toussi: s'occupe de la classe DAO: CustomerDAO
+Manoel Toussi: s'occupe de la classe DAO: CustomerDAO, ControllerServlet
+		je vais donner un diagramme de classe <br/>
+
+Ange: s'occupe du Pom.xml et ListCustomers.jsp <br/>
+
+
+
+
 
 
 
