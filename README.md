@@ -16,7 +16,7 @@ Ange: s'occupe du Pom.xml et ListCustomers.jsp <br/>
 
 
 <h2>Pour une meilleure comprehension je conseille que chacun lise Open Classroom sur java ee </h2>
-
+<h3>les classes doivent se trouver dans le fichier main/java</h3>
 <ul>
 <li>pour faire un push:<b> git push origin main</b></li>
 <li>pour faire le commit: git commit -m " " (entre les cotes, le message de ton commit)</li>
