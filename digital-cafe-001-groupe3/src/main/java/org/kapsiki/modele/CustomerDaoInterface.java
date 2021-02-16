@@ -1,3 +1,4 @@
+package org.kapsiki.modele;
 import java.sql.SQLException;
 
 public interface CustomerDaoInterface {

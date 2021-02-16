@@ -6,7 +6,7 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>
-		<servlet-name>ControllerServlet</servlet-name>
+		<servlet-name>org.kapsiki.controller.ControllerServlet</servlet-name>
 		<servlet-class>ControllerServlet</servlet-class>
 	</servlet>
 	

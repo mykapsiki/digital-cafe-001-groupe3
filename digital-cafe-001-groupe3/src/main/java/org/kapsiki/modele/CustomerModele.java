@@ -1,3 +1,4 @@
+package org.kapsiki.modele;
 public class CustomerModele {
 	
 	

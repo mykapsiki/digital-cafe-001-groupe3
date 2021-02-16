@@ -1,3 +1,4 @@
+package org.kapsiki.modele;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -14,7 +15,7 @@ public class CustomerDAO implements CustomerDaoInterface{
 	private Connection jdbcConnection;
 	
 	
-	public CustomerDAO(String jdbcURL, String jdbcUsername, String jdbcPassword, Connection jdbcConnection) {
+	public CustomerDAO(String jdbcURL, String jdbcUsername, String jdbcPassword) {
 		this.jdbcURL = jdbcURL;
 		this.jdbcUsername = jdbcUsername;
 		this.jdbcPassword = jdbcPassword;
