@@ -1,26 +1,18 @@
 # Digital Café N°1 - Projet du groupe 3
 Digital Café n°1 du BootCamp Commun du programme Kapsiki <br/>
 
-Junior Nitcheu: s'occupe du modèle <br/>
-		crée la classe CustomerModele (qui correspond à customer) /main/java <br/>
-
-
-Manoel Toussi: s'occupe de la classe DAO: CustomerDAO, ControllerServlet
-		je vais donner un diagramme de classe <br/>
-
-Ange: s'occupe du Pom.xml et ListCustomers.jsp <br/>
-				ListCustomers.jsp doit se trouver dans le repertoire webapp<br/>
-
-	
-
-
-
-<h2>Pour une meilleure comprehension je conseille que chacun lise Open Classroom sur java ee </h2>
-<h3>les classes doivent se trouver dans le fichier main/java</h3>
 <ul>
-<li>pour faire un push:<b> git push origin main</b></li>
-<li>pour faire le commit: git commit -m " " (entre les cotes, le message de ton commit)</li>
-<li>git add .:  pour ajouter tous les fichiers se trouvant sur lequel tu trouves à commit</li>
-
-<ul>
+	<li>exécuter le script sql de la création de la base de données se trouvant dans resources </li>
+	<li> modifier le fichier web.xml: entrer les identifiants tomcat ayant le role manager-gui et login pour accéder au SGBD MySql</li>
+	<li>utiliser les commandes suivantes:</li>
+		<ul>
+			<li> mvn clean </li>
+			<li> mvn validate </li>
+			<li> mvn compile </li>
+			<li> mvn package </li>
+			<li> démarrez le serveur tomcat</li>
+			<li> mvn tomcat7:deploy </li>
+		</ul>
+	<li>
+</ul>
 

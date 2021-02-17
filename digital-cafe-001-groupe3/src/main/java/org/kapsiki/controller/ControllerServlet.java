@@ -16,13 +16,12 @@ import org.kapsiki.modele.CustomerModele;
 
 public class ControllerServlet extends HttpServlet {
 
-	private static final long serialVersionUID = 1L;
 	private CustomerDAO customersDAO;
 	
 	public void init() {
-		String jdbcURL = "jdbc:mysql://localhost:3306/classicmodels";
-        String jdbcUsername = "root";
-        String jdbcPassword = "M@neg@rrinch@11";
+		String jdbcURL = getServletContext().getInitParameter("jdbcURL");
+        String jdbcUsername = getServletContext().getInitParameter("jdbcUsername");
+        String jdbcPassword = getServletContext().getInitParameter("jdbcPassword");
         
         customersDAO = new CustomerDAO(jdbcURL, jdbcUsername, jdbcPassword);
 	}
