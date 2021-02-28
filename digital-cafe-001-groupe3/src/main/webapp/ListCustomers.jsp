@@ -19,14 +19,14 @@
 				<th>FirstName Contact </th>
 				<th>LastName Contact </th>
 			</tr>
-			<c:forEach var="customer" items="${listClients}">
+			<c:forEach var="customer" items="${listCustomers}">
 				<tr>
 					<td><c:out value="${customer.customerNumber} "/> </td>
 					<td><c:out value="${customer.customerName} "/> </td>
 					<td><c:out value="${customer.contactFirstName} "/> </td>
 					<td><c:out value="${customer.contactLastName} "/> </td>
 				</tr>
-			</c:forEach>	
+			</c:forEach>
 		</table>
 	</div>
 </body>

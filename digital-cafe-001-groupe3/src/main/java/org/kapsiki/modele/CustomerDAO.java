@@ -67,9 +67,7 @@ public class CustomerDAO implements CustomerDaoInterface{
     		String customerName = resultSet.getString("customerName");
     		String contactFirstName = resultSet.getString("contactFirstName");
     		String contactLastName = resultSet.getString("contactLastName");
-    		
-    		
-    		
+
     		CustomerModele customers = new CustomerModele(customerNumber, customerName, contactFirstName, contactLastName);
     		listCustomers.add(customers);
     	}
